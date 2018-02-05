@@ -1,10 +1,298 @@
-﻿<!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
-    <title>陈绍洵</title>
+	<meta charset="UTF-8">
+    <script src="jquery-1.11.1.js" type="text/javascript"></script>
+	<script src="index.js" type="text/javascript"></script>
+	<title>我的网站</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-我叫陈绍洵
+<div class="widescreen">
+	<!--头部-->
+	<div class="header">
+    	<!--导航栏-->
+    	<div class="nav-menu">
+        	<div class="nav-bg" style="background-image:url(imges/banner.png)"></div>
+            <div class="nav-mask"></div>
+            <!--导航栏菜单-->
+            <div class="nav-wrapper">
+            	<div class="nav-left fl">
+                	<ul>
+                    	<li class="nav-item ">
+                        	<a  class="t">你好，欢迎光临动漫商城</a>
+                        </li>
+                        <li class="nav-item login">
+                        	<a href="member/login.html" class="t">[请登录]</a>
+                        </li>
+                        <li class="nav-item register">
+                        	<a href="#" class="t">[免费注册]</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav-midden fr"></div>
+                <div class="nav-right fr">
+                	<ul class="fr">
+                    	<li class="nav-item ">
+                        	<a href="#" class="t">M订单</a>
+                        </li>
+                        <li class="nav-item">
+                        	<a href="#" class="t">M收藏</a>
+                        </li>
+                        <li class="nav-item">
+                        	<a href="#" class="t">M购物车</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--banner-->
+        <div class="banner"></div>
+        <!--菜单栏-->
+        <div class="wrapper">
+        	<ul class="nav-menu">
+            	<li class="nav-item all-category">
+                	<a>全部分类</a>
+                    <ul class="sub-nav">
+                    	<li class="sub-nav-item">手办模型</li>
+                        <li class="sub-nav-item">动漫饰品</li>
+                        <li class="sub-nav-item">文具箱包</li>
+                        <li class="sub-nav-item">桌游，玩具</li>
+                        <li class="sub-nav-item">衣着装备</li>
+                        <li class="sub-nav-item">游戏</li>
+                        <li class="sub-nav-item">漫画连载</li>
+                    </ul>
+                </li>
+                <li class="nav-item category"><a href="#" class="c">新品上架</a></li>
+                <li class="nav-item category"><a href="#" class="c">手办预定</a></li>
+                <li class="nav-item category"><a href="#" class="c">热销产品</a></li>
+                <li class="nav-item category"><a href="#" class="c">店铺加盟</a></li>
+                <div>
+                    <form method="get" action="">
+                        <div><input class="submit formr" type="submit" value=""></div>
+                        <div><input class="text formr" type="text" name="select" placeholder=" 请输入您要搜索的商品关键字" style="color: rgb(153, 153, 153);" autocomplete="off"></div>
+                    </form>
+                </div>
+            </ul>
+        </div>
+    </div>
+    <!--内容区-->
+    <div class="page-body">
+    	<!--轮播区-->
+    	<div class="container-top-wrapper layout">
+        	<div class="banner-slide">
+            	<div class="slide_tit hide" banner-index="0" style="background-image:url(imges/15454654.jpg)"></div>
+                <div class="slide_tit hide" banner-index="1" style="background-image:url(imges/01119354.jpg)"></div>
+                <div class="slide_tit " banner-index="2" style="background-image:url(imges/0184446546.jpg)"></div>
+                <div class="slide_tit hide" banner-index="3" style="background-image:url(imges/15464616461.jpg)"></div>
+            </div>
+            <div class="banner-index">
+            	<ul>
+                	<li class="banner-li narrow" banner-li-index="0" style="background-image:url(imges/15454654-s.jpg)"></li>
+                    <li class="banner-li narrow" banner-li-index="1" style="background-image:url(imges/01119354-s.jpg)"></li>
+                    <li class="banner-li narrow" banner-li-index="2" style="background-image:url(imges/0184446546-s.jpg)"></li>
+                    <li class="banner-li narrow" banner-li-index="3" style="background-image:url(imges/15464616461-s.jpg)"></li>
+                </ul>
+            </div>
+        </div>
+        <!--详情区-->
+        <div class="container-row layout">
+        	<!--手办模型-->
+            <div class="model">
+            	<div class="container-title ">
+                	<div class="md-scope"><img src="imges/1484213567604-175790.png"></div>
+                    <div class="md-scope md-dd"><dd>手办模型</dd></div>
+                    <div class="md-scope md-a"><a href="#">查看更多>></a></div>
+                </div>
+                <div class="model-goods">
+                	<div class="goods">
+                    	<a href="#">
+                        	<div class="goods-pic"><img src="imges/1487665937152.jpg"></div>
+                            <div class="goods-title"><span>【现货】BANDAI  万代 ROBOT魂 176 V高达 V-Dash Gundam </span></div>
+                            <div class="goods-price">￥155</div>
+                        </a>
+                    </div>
+                    <div class="goods">
+                    	<a href="#">
+                        	<div class="goods-pic"><img src="imges/1487732313238.jpg"></div>
+                            <div class="goods-title"><span>【现货】万代 BANDAI ROBOT魂 高达SEED FORCE IMPULSE 空战 脉冲高达 </span></div>
+                            <div class="goods-price">￥255</div>
+                        </a>
+                    </div>
+                    <div class="goods">
+                    	<a href="#">
+                        	<div class="goods-pic"><img src="imges/1487747553810.jpg"></div>
+                            <div class="goods-title"><span>【现货】万代 FW Gundam Converge EX07 GP03D BB 高达 食玩</span></div>
+                            <div class="goods-price">￥199</div>
+                        </a>
+                    </div>
+                    <div class="goods">
+                    	<a href="#">
+                        	<div class="goods-pic"><img src="imges/1487666055375.jpg"></div>
+                            <div class="goods-title"><span>【现货】万代 BANDAI  Robot魂 121 Sazabi 沙扎比 沙萨比 夏亚专用 </span></div>
+                            <div class="goods-price">￥368</div>
+                        </a>
+                    </div>
+                    <div class="goods">
+                    	<a href="#">
+                        	<div class="goods-pic"><img src="imges/1487746927973.jpg"></div>
+                            <div class="goods-title"><span>【现货】万代 食玩 高达 突击王国 ASSAULT KINGDOM EX10 独角兽 报丧女妖 </span></div>
+                            <div class="goods-price">￥149</div>
+                        </a>
+                    </div>
+                    <div class="goods">
+                    	<a href="#">
+                        	<div class="goods-pic"><img src="imges/1487750530873.jpg"></div>
+                            <div class="goods-title"><span>【现货】 万代 盒蛋食玩 UN Universal Unit 1 RX-105 柯西高达 疯狂</span></div>
+                            <div class="goods-price">￥128</div>
+                        </a>
+                    </div>
+                    <div class="goods">
+                    	<a href="#">
+                        	<div class="goods-pic"><img src="imges/1487666055375.jpg"></div>
+                            <div class="goods-title"><span> </span></div>
+                            <div class="goods-price">￥368</div>
+                        </a>
+                    </div>
+                    <div class="goods">
+                    	<a href="#">
+                        	<div class="goods-pic"><img src="imges/1487666055375.jpg"></div>
+                            <div class="goods-title"><span> </span></div>
+                            <div class="goods-price">￥368</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!--动漫饰品-->
+            <div class="ornament">
+            	<div class="container-title ">
+                	<div class="md-scope"><img src="imges/1484213567604-175790.png"></div>
+                    <div class="md-scope md-dd"><dd>动漫饰品</dd></div>
+                    <div class="md-scope md-a"><a href="#">查看更多>></a></div>
+                </div>
+                <div class="model-goods">
+                	<div class="goods">
+                    	<a href="#">
+                        	<div class="goods-pic"><img src="imges/1487665937152.jpg"></div>
+                            <div class="goods-title"><span>【现货】BANDAI  万代 ROBOT魂 176 V高达 V-Dash Gundam </span></div>
+                            <div class="goods-price">￥155</div>
+                        </a>
+                    </div>
+                    <div class="goods">
+                    	<a href="#">
+                        	<div class="goods-pic"><img src="imges/1487732313238.jpg"></div>
+                            <div class="goods-title"><span>【现货】万代 BANDAI ROBOT魂 高达SEED FORCE IMPULSE 空战 脉冲高达 </span></div>
+                            <div class="goods-price">￥255</div>
+                        </a>
+                    </div>
+                    <div class="goods">
+                    	<a href="#">
+                        	<div class="goods-pic"><img src="imges/1487747553810.jpg"></div>
+                            <div class="goods-title"><span>【现货】万代 FW Gundam Converge EX07 GP03D BB 高达 食玩</span></div>
+                            <div class="goods-price">￥199</div>
+                        </a>
+                    </div>
+                    <div class="goods">
+                    	<a href="#">
+                        	<div class="goods-pic"><img src="imges/1487666055375.jpg"></div>
+                            <div class="goods-title"><span>【现货】万代 BANDAI  Robot魂 121 Sazabi 沙扎比 沙萨比 夏亚专用 </span></div>
+                            <div class="goods-price">￥368</div>
+                        </a>
+                    </div>
+                    <div class="goods">
+                    	<a href="#">
+                        	<div class="goods-pic"><img src="imges/1487746927973.jpg"></div>
+                            <div class="goods-title"><span>【现货】万代 食玩 高达 突击王国 ASSAULT KINGDOM EX10 独角兽 报丧女妖 </span></div>
+                            <div class="goods-price">￥149</div>
+                        </a>
+                    </div>
+                    <div class="goods">
+                    	<a href="#">
+                        	<div class="goods-pic"><img src="imges/1487750530873.jpg"></div>
+                            <div class="goods-title"><span>【现货】 万代 盒蛋食玩 UN Universal Unit 1 RX-105 柯西高达 疯狂</span></div>
+                            <div class="goods-price">￥128</div>
+                        </a>
+                    </div>
+                    <div class="goods">
+                    	<a href="#">
+                        	<div class="goods-pic"><img src="imges/1487666055375.jpg"></div>
+                            <div class="goods-title"><span> </span></div>
+                            <div class="goods-price">￥368</div>
+                        </a>
+                    </div>
+                    <div class="goods">
+                    	<a href="#">
+                        	<div class="goods-pic"><img src="imges/1487666055375.jpg"></div>
+                            <div class="goods-title"><span> </span></div>
+                            <div class="goods-price">￥368</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!--文具箱包-->
+            <div></div>
+            <!--桌游玩具-->
+            <div></div>
+            <!--衣着装备-->
+            <div></div>
+            <!--游戏-->
+            <div></div>
+            <!--漫画连载-->
+            <div></div>
+        </div>
+    </div>
+    <!--页尾-->
+    <div class="footer">
+   		<div class="footer-wrapper">
+        <div style="height:135px">
+            <div class='info-block'>
+                <strong>消费者保障</strong>
+                <div class="info-text">
+                    <div><a href="#">保障范围</a></div>
+                    <div><a href="#">退换货流程</a></div>
+                    <div><a href="#">服务中心</a></div>
+                </div>
+            </div> 
+            <div class='info-block'>
+                <strong>新手上路</strong>
+                <div class="info-text">
+                    <div><a href="#">购买流程</a></div>
+                    <div><a href="#">顾客必读</a></div>
+                    <div><a href="#">联系客服</a></div>
+                </div>
+            </div> 
+            <div class='info-block'>
+                <strong>购物指南</strong>
+                <div class="info-text">
+                    <div><a href="#">订单状态</a></div>
+                    <div><a href="#">关于出货</a></div>
+                    <div><a href="#">售后服务</a></div>
+                </div>
+            </div> 
+            <div class='info-block'>
+                <strong>支付/配送</strong>
+                <div class="info-text">
+                    <div><a href="#">配送方式</a></div>
+                    <div><a href="#">关于送货和验货</a></div>
+                    <div><a href="#">支付方式</a></div>
+                </div>
+            </div> 
+            <div class='info-block'>
+                <strong>购物条款</strong>
+                <div class="info-text">
+                    <div><a href="#">网站使用条款</a></div>
+                    <div><a href="#">隐私保护政策</a></div>
+                    <div><a href="#">会员注册协议</a></div>
+                </div>
+            </div> 
+        </div>
+        </div>
+        <div class="footer2 ">
+        	有任何购物问题请联系我们在线客服 | 电话：0768-xxxxxxxx | 工作时间：周一至周五 09:30－18:00 
+			<p>©2017 XXX信息技术有限公司 xxxx.com 版权所有</p>
+            <div style="text-align: center;">粤ICP备xxxxxxxx号</div>
+        </div> 
+    </div>
+</div>
 </body>
 </html>
